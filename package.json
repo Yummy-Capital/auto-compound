@@ -1,0 +1,27 @@
+{
+  "name": "auto-compound",
+  "version": "1.0.0",
+  "description": "An auto-compound repository provides a convenient and efficient way for validators to maximize their earnings in a DeFi network",
+  "author": "Yummy Capital <contact@yummy.capital>",
+  "scripts": {
+    "build": "gulp build",
+    "compound": "node build/compound"
+  },
+  "dependencies": {
+    "@cosmjs/crypto": "^0.30.0",
+    "@cosmjs/proto-signing": "^0.30.0",
+    "@cosmjs/stargate": "^0.30.0",
+    "@cosmjs/tendermint-rpc": "^0.30.0",
+    "axios": "^1.3.4",
+    "chalk": "^4.1.2",
+    "cosmjs-types": "^0.7.1",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.5"
+  }
+}
