@@ -1,11 +1,12 @@
 {
   "name": "auto-compound",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An auto-compound repository provides a convenient and efficient way for validators to maximize their earnings in a DeFi network",
   "author": "Yummy Capital <contact@yummy.capital>",
   "scripts": {
     "build": "gulp build",
-    "compound": "node build/compound"
+    "compound": "node build/run.compound",
+    "grant": "node build/run.grant"
   },
   "dependencies": {
     "@cosmjs/crypto": "^0.30.0",

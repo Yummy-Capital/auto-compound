@@ -1,3 +1,4 @@
-.env
 build
+env/compound.env
+env/grant.env
 node_modules

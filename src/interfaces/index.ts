@@ -41,7 +41,7 @@ export interface ChainInfo {
   slip44: number;
 }
 
-export interface Message {
+export interface Msg {
   typeUrl: string;
   value: Uint8Array;
 }
